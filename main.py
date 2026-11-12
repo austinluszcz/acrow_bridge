@@ -18,6 +18,6 @@ class State:
 def index(state: State) -> Page:
     return Page(state, ["Hello World!"])
 
-assert_equal(index(State()), Page(State(), ["Hello World!"]))
+assert_equal(index(State()), Page(State(), ["HEello World!"]))
 
 start_server(State())
